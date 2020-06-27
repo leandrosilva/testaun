@@ -8,11 +8,14 @@ I wrote it with educational purpose as I'm exploring Rust's [procedural macros](
 
 As usual, add the dependency to `Cargo.toml`:
 
+```toml
     [dependencies]
     testaun = "0.1.0"
+```
 
 Once you have done that, it is pretty straightforward and there is a standalone test that shows it plain and simple.
 
+```Rust
     // Import the damn crate
     //
 
@@ -45,6 +48,7 @@ Once you have done that, it is pretty straightforward and there is a standalone 
     fn should_work_as_normal() {
         assert_eq!(1, 1);
     }
+```
 
 So you can use `#[testaun]` or not. If you go ahead use it, you must provide two functions `testaun_before` and `testaun_after`. And that's it.
 
