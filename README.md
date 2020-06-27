@@ -6,7 +6,12 @@ I wrote it with educational purpose as I'm exploring Rust's [procedural macros](
 
 ## How To
 
-It is pretty straightforward and there is a standalone test that shows it plain and simple.
+As usual, add the dependency to `Cargo.toml`:
+
+    [dependencies]
+    testaun = "0.1.0"
+
+Once you have done that, it is pretty straightforward and there is a standalone test that shows it plain and simple.
 
     // Import the damn crate
     //
